@@ -671,16 +671,19 @@ h3.my-profession {
 }
 .portfolio .portfolio-item-inner 
 {
-    border: 6px solid var(--bg-black-100);
+    border: 6px solid black;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
 }
-.portfolio .portfolio-item-inner .portfolio-img img
+.portfolio .portfolio-item-inner p{
+    color: #f021b2;
+}
+/* .portfolio .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
     display: block;
-}
+} */
 .contact-title
 {
     color: var(--skin-color);
